@@ -1,5 +1,7 @@
 //Hide attachment on portal when a specific question is selected
 
+//Hide attachment on portal when a specific question is selected
+
 function onChange(control, oldValue, newValue, isLoading) {
 		var value;
 
