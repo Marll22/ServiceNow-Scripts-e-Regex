@@ -1,0 +1,13 @@
+//Hide attachment on portal when a specific question is selected
+
+function onChange(control, oldValue, newValue, isLoading) {
+		var value;
+
+		value = g_form.getValue('question_update_registration_of');
+		if(value == 'commercial_client')
+		{
+			var attachmentButton = top.document.getElementsByTagName('sp-attachment-button');
+			attachmentButton[0].parentNode.hidden = true;
+		}
+		return;
+}
