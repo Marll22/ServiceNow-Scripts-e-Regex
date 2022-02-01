@@ -3,7 +3,7 @@ var queryRecords;
 var queryNotifications;
 
 queryRecords = 'requested_for=8afe4db9db91b890ee41454039961916';
-queryNotifications = 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)';
+queryNotifications = 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)^ORname=2 (ACN) [EN] RITM CTR Resolved';
 
 // Disable notifications
 var gr = new GlideRecord('sysevent_email_action');
