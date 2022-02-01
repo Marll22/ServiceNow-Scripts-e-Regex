@@ -27,15 +27,15 @@ while(gr.next())
 }
 
 // Set records to closed completed and add comments
-gr = new GlideRecord('sc_req_item');
-gr.addQuery(queryRecords);
-gr.query();
-while(gr.next())
+var = gr2 = new GlideRecord('sc_req_item');
+gr2.addQuery(queryRecords);
+gr2.query();
+while(gr2.next())
 {
-	gr.state = 3;
-	gr.stage = 'closed_complete';
-	gr.comments = 'The request has been automatically marked as Completed.';
-	gr.update();
+	gr2.state = 3;
+	gr2.stage = 'closed_complete';
+	gr2.comments = 'The request has been automatically marked as Completed.';
+	gr2.update();
 }
 
 // Enable notifications
