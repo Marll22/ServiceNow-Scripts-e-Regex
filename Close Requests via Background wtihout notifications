@@ -1,0 +1,48 @@
+
+var tQuery3= 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)';
+
+var gr3 = new GlideRecord('sysevent_email_action');
+gr3.addQuery(tQuery3);
+gr3.query();
+
+while(gr3.next())
+{
+    gr3.active = false;
+    gr3.update();
+}
+
+
+var tQuery= 'requested_for=8afe4db9db91b890ee41454039961916';
+
+var gr = new GlideRecord('sc_req_item');
+gr.addQuery(tQuery);
+gr.query();
+
+while(gr.next())
+{
+    gr.state = 99;
+    gr.update();
+}
+
+var gr2 = new GlideRecord('sc_req_item');
+gr2.addQuery(tQuery);
+gr2.query();
+
+while(gr2.next())
+{
+gr2.state = 3;
+gr2.stage = 'closed_complete';
+
+gr2.comments = 'The request has been automatically marked as Completed.';
+gr2.update();
+}
+
+var gr4 = new GlideRecord('sysevent_email_action');
+gr4.addQuery(tQuery3);
+gr4.query();
+
+while(gr4.next())
+{
+    gr4.active = true;
+    gr4.update();
+}
