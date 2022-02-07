@@ -44,7 +44,7 @@ gr3.query();
 while(gr3.next())
 {
 	gr3.state = 3;
-	gr3.stage = 'closed_complete';
+	gr3.stage = 'complete';
 	gr3.comments = 'The request has been automatically marked as Completed.';
 	gr3.update();
 }
