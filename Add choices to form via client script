@@ -1,0 +1,65 @@
+function onChange(control, oldValue, newValue, isLoading) {
+
+if(newValue == 'OTC'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problema sobre nf de clientes/ retorno/ devolução', 'Dúvidas/ Problema sobre nf de clientes/ retorno/ devolução');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas sobre atualização de pedido de venda', 'Dúvidas/ Problemas sobre atualização de pedido de venda');
+
+}
+
+if(newValue == 'RTR'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre impostos de operações já existentes', 'Dúvidas sobre impostos de operações já existentes');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre classificação contábil de documentos', 'Dúvidas sobre classificação contábil de documentos');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre contas contábeis', 'Dúvidas sobre contas contábeis');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas de ativo fixo', 'Dúvidas/ Problemas de ativo fixo');
+}
+
+if(newValue == 'PTP'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre cadastro', 'Dúvidas sobre cadastro');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvida sobre a Mesa de Operações', 'Dúvida sobre a Mesa de Operações');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvida sobre Transacional Agrícola', 'Dúvida sobre Transacional Agrícola');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas em relação á lançamentos de materiais, serviços e rejeição de notas fiscais', 'Dúvidas em relação á lançamentos de materiais, serviços e rejeição de notas fiscais');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre pagamentos, adiantamentos e reembolso de despesas', 'Dúvidas sobre pagamentos, adiantamentos e reembolso de despesas');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/problema sobre status de sinistros abertos', 'Dúvidas/problema sobre status de sinistros abertos');
+
+}
+
+if(newValue == 'FAC'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de serviços gerais', 'Dúvidas, sugestões e reclamações de serviços gerais');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de Conservação e serviços patrimoniais', 'Dúvidas, sugestões e reclamações de Conservação e serviços patrimoniais');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de Frotas de veículos leves', 'Dúvidas, sugestões e reclamações de Frotas de veículos leves');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de reserva de veículos do pool', 'Dúvidas, sugestões e reclamações de reserva de veículos do pool');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de serviço de transporte', 'Dúvidas, sugestões e reclamações de serviço de transporte');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de serviços de arquivamento', 'Dúvidas, sugestões e reclamações de serviços de arquivamento');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de transporte pessoal', 'Dúvidas, sugestões e reclamações de transporte pessoal');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas, sugestões e reclamações de viagens', 'Dúvidas, sugestões e reclamações de viagens');
+
+}
+
+if(newValue == 'HTR'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas sobre ponto', 'Dúvidas/ Problemas sobre ponto');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas sobre Folha de Pagamentos', 'Dúvidas sobre Folha de Pagamentos');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas sobre Benefícios', 'Dúvidas/ Problemas sobre Benefícios');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas sobre Movimentações', 'Dúvidas/ Problemas sobre Movimentações');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Dúvidas/ Problemas sobre pensão alimentícia', 'Dúvidas/ Problemas sobre pensão alimentícia');
+
+}
+
+
+if(newValue == 'TI'){
+g_form.clearOptions('opcoes_de_chamados_da_esteira_escolhida');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', '--None--', '--None--');
+g_form.addOption('opcoes_de_chamados_da_esteira_escolhida', 'Solicitar orientações / esclarecer dúvidas', 'Solicitar orientações / esclarecer dúvidas');
+
+}
+
+}
