@@ -28,14 +28,14 @@ while(gr.next())
 }
 
 // Set records to work in progress
-var gr6 = new GlideRecord('sc_req_item');
-gr6.addQuery(queryRecords);
-gr6.query();
-while(gr6.next())
-{
-    gr6.state = 99;
-    gr6.update();
-}
+//var gr6 = new GlideRecord('sc_req_item');
+//gr6.addQuery(queryRecords);
+//gr6.query();
+//while(gr6.next())
+//{
+//    gr6.state = 99;
+//    gr6.update();
+//}
 
 // Set records to resolved
 var gr2 = new GlideRecord('sc_req_item');
@@ -43,6 +43,8 @@ gr2.addQuery(queryRecords);
 gr2.query();
 while(gr2.next())
 {
+    var workflow = new Workflow();
+    workflow.cancel(teste);
     gr2.state = 2;
     gr2.update();
 }
