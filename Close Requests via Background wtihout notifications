@@ -27,16 +27,6 @@ while(gr.next())
     gr.update();
 }
 
-// Set records to work in progress
-//var gr6 = new GlideRecord('sc_req_item');
-//gr6.addQuery(queryRecords);
-//gr6.query();
-//while(gr6.next())
-//{
-//    gr6.state = 99;
-//    gr6.update();
-//}
-
 // Set records to resolved
 var gr2 = new GlideRecord('sc_req_item');
 gr2.addQuery(queryRecords);
@@ -45,20 +35,10 @@ while(gr2.next())
 {
     var workflow = new Workflow();
     workflow.cancel(gr2);
-    gr2.state = 2;
+    gr2.state = 3;
+    gr2.stage = 'complete';
+    gr2.comments = 'The request has been automatically marked as Completed.';
     gr2.update();
-}
-
-// Set records to closed completed and add comments
-var gr3 = new GlideRecord('sc_req_item');
-gr3.addQuery(queryRecords);
-gr3.query();
-while(gr3.next())
-{
-	gr3.state = 3;
-	gr3.stage = 'complete';
-	gr3.comments = 'The request has been automatically marked as Completed.';
-	gr3.update();
 }
 
 // Enable notifications
