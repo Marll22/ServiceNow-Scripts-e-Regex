@@ -30,8 +30,8 @@ while(gr.next())
 // Set records to resolved
 var gr2 = new GlideRecord('sc_req_item');
 gr2.addEncodedQuery(queryRecords);
-gr.addQuery("sys_created_on", ">=", "2021-07-26 00:00:00");
-gr.addQuery("sys_created_on", "<=", "2021-07-30 00:00:00");
+gr2.addQuery("sys_created_on", ">=", "2021-07-26 00:00:00");
+gr2.addQuery("sys_created_on", "<=", "2021-07-30 00:00:00");
 gr2.query();
 
 while(gr2.next())
