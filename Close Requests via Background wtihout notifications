@@ -3,7 +3,7 @@ var queryRecords;
 var queryNotifications;
 var queryBR;
 
-queryRecords = 'state=99^stage=fulfillment^cat_item!=4b856193db605410ee4145403996193b^cat_item!=f0ebdcdfdb10eb00d10d16f35b9619d3^cat_item!=858b58dfdb10eb00d10d16f35b9619ba^cat_item!=61f4e135dbb02b40d10d16f35b9619a1^cat_item!=413de8dbdb50eb00d10d16f35b96196e^cat_item!=c51993e7db56ac10ee4145403996197b^cat_item!=a5dbe147db641410ee414540399619fb^request.opened_by=01662cbadba5ef80281e16f35b9619c2';
+queryRecords = 'state=99^stage=fulfillment^cat_item!=4b856193db605410ee4145403996193b^cat_item!=f0ebdcdfdb10eb00d10d16f35b9619d3^cat_item!=858b58dfdb10eb00d10d16f35b9619ba^cat_item!=61f4e135dbb02b40d10d16f35b9619a1^cat_item!=413de8dbdb50eb00d10d16f35b96196e^cat_item!=c51993e7db56ac10ee4145403996197b^cat_item!=a5dbe147db641410ee414540399619fb';
 queryNotifications = 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)^ORname=2 (ACN) [EN] RITM CTR Resolved^ORname=(ACN) [PB] RITM CTR Resolved^ORname=(ACN) [PB] Survey User Invite^ORname=(ACN) [EN] RITM CTR Resolved^ORname=(ACN) [EN] REQUEST PROCESSED^ORname=OCL - [PB] RITM BRFAC Solicitacao resolvid^ORname=(ACN) [PB] RITM BR0 Informacao de cancel';
 queryBR = 'nameLIKEOCL: Abort Close Incorrect ^ORname=(ACN) [FR] Survey User Invite';
 
@@ -30,8 +30,8 @@ while(gr.next())
 // Set records to resolved
 var gr2 = new GlideRecord('sc_req_item');
 gr2.addEncodedQuery(queryRecords);
-gr2.addQuery("sys_created_on", ">=", "2021-07-26 00:00:00");
-gr2.addQuery("sys_created_on", "<=", "2021-07-30 00:00:00");
+gr2.addQuery("sys_created_on", ">=", "2021-06-24 00:00:00");
+gr2.addQuery("sys_created_on", "<=", "2021-08-18 00:00:00");
 gr2.query();
 
 while(gr2.next())
