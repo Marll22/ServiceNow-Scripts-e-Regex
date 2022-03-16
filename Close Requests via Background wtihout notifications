@@ -5,7 +5,7 @@ var queryBR;
 
 queryRecords = '';
 
-queryNotifications = 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)^ORname=2 (ACN) [EN] RITM CTR Resolved^ORname=(ACN) [PB] RITM CTR Resolved^ORname=(ACN) [PB] Survey User Invite^ORname=(ACN) [EN] RITM CTR Resolved^ORname=(ACN) [EN] REQUEST PROCESSED^ORname=OCL - [PB] RITM BRFAC Solicitacao resolvid^ORname=(ACN) [PB] RITM BR0 Informacao de cancel ^ORname=(ACN) [FR] Survey User Invite ^ORname=(ACN) [NL] Survey User Invite^ORname=(ACN) [EN] Survey User Invite ^ORname=(ACN) [FR] Survey User Invite ^ORname=(ACN) [FR] Survey User Invite^ORname=(ACN) [EN] Survey User Invite ';
+queryNotifications = 'name=(ACN) [EN] Survey User Invite^ORname=OCL:  Survey IT notification^ORname=(ACN) [PB] RITM BR0 Solicitacao fechada^ORname=(ACN) [PB] RITM BR0 Solicitacao resolvid^ORname=(ACN) [PB] R. Item resolved (ExtUsers)^ORname=2 (ACN) [EN] RITM CTR Resolved^ORname=(ACN) [PB] RITM CTR Resolved^ORname=(ACN) [PB] Survey User Invite^ORname=(ACN) [EN] RITM CTR Resolved^ORname=(ACN) [EN] REQUEST PROCESSED^ORname=OCL - [PB] RITM BRFAC Solicitacao resolvid^ORname=(ACN) [PB] RITM BR0 Informacao de cancel ^ORname=(ACN) [FR] Survey User Invite ^ORname=(ACN) [NL] Survey User Invite^ORname=(ACN) [EN] Survey User Invite ^ORname=(ACN) [FR] Survey User Invite ^ORname=(ACN) [FR] Survey User Invite^ORname=(ACN) [EN] Survey User Invite ^ORname= (ACN) [FR] Survey User Invite ';
 
 queryBR = 'nameLIKEOCL: Abort Close Incorrect ';
 
