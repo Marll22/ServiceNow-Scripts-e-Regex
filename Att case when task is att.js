@@ -1,3 +1,8 @@
+// Its a 'after' type BR who runs when state in task table changes to cancel or close status
+// and uses only update status
+
+
+
 (function executeRule(current, previous /*null when async*/) {
 
 	var gr = new GlideRecord("sn_customerservice_task");
