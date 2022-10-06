@@ -5,9 +5,13 @@
 
 # Casos trabalhados:
 
-## Saude Petro
-### 20499
-Demorei 08 horas, caso 05 horas
-Criadas duas BR's e um fix script
-Rodado o fix script em DEV e QA
+## JSL
+## 20595
+	Faltou liberar o dash para os users
+	4 users que vem da tabela sap e precisam ser atualizados por la
+	Ficou em impedimento devido a umda integração do sap x sn, aguardando resposta do user
 
+## Raizen
+## 20703
+	5 horas no caso
+	No final era um grupo com o nome em branco e o user usava para testar.
