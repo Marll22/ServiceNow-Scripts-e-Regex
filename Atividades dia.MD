@@ -33,42 +33,37 @@
 ## Apsen
 
 ### 20727
-Inativar o item: https://apsendev.service-now.com/sc_cat_item.do?sys_id=227394341b9341500b15eca12b4bcb1f
- 
-
-Criar um Record Producer para a tabela x_apfsa_csc_apsen_requests, com as informações solicitadas no escopo, com o mesmo nome e variable sets do item inativado acima.
- 
-
-No campo Script do record producer criado inserir o seguinte código:
-new NegociosUtils().updateDefaultRP(current, producer, RP);
- 
 
 Criar um registro na tabela x_apfsa_csc_apsen_request_parameter para o record producer criado, adicionando o Assignment Group.
- 
-
-Criar um workflow para rodar na tabela x_apfsa_csc_apsen_requests, colocando nas condições que o Use Default Workflow é False e o nome do item criado
- 
-
-
-
- 
-
- 
-
-Criar o fluxo e tarefas conforme o escopo
- 
-
-Os campos da tarefa devem ser variáveis no record producer
- 
-
-No campo abaixo, criar a choice Nota Fiscal (traduzir):
-https://apsendev.service-now.com/sys_dictionary.do?sysparm_query=name%3dx_apfsa_csc_apsen_business_requests_tasks%5eelement%3du_on_hold_reason&sysparm_query_encoded=name%3dx_apfsa_csc_apsen_business_requests_tasks%5eelement%3du_on_hold_reason&sysparm_referring_url=x_apfsa_csc_apsen_task_paytrack.do%3fsys_id%3d5e8bde8e1b1915504392eb1a3b4bcb9f%4099%40sysparm_record_rows%3d35%4099%40sysparm_record_target%3dx_apfsa_csc_apsen_task_paytrack%4099%40sysparm_record_list%3dORDERBYnumber%4099%40sysparm_record_row%3d2&sysparm_view=advanced&sysparm_view_forced=true
- 
 
 Criar notificação conforme o escopo
- 
 
 Criar regra para tornar o anexo obrigatório na tarefa conforme o escopo
- 
 
-QUALQUER DÚVIDA, C
+------------------------------------------ 
+
+	Solicito que o grupo de atribuição seja 'Suporte - Tecnologia';
+
+Após a criação da RITM seja criada a tarefa: "Separar Acessório - Suporte"
+ - SLA: 2 dias úteis 
+
+Solicito que após o encerramento manual da tarefa 'Separar Acessório - Suporte' , ( com o campo de “Existe necessidade de solicitar Nota Fiscal?” = Sim) solicito que seja criada automaticamente a tarefa: "Gerar Nota Fiscal – Governança Financeira”
+ - SLA: 3 dias úteis 
+
+IMPORTANTE: Necessário ser apresentada todas as informações preenchidas nos campos “Dados da Nota Fiscal”, da tarefa “Separar Acessório – Suporte”, nesta tarefa, para tratativa da área de Governança Financeira.
+
+Solicito que quando a tarefa tiver o status modificado para Pendente – Motivo: Nota Fiscal, deve ser solicitado o preenchimento obrigatório do campo: Número da Ordem de Nota Fiscal. 
+
+Solicito que ao colocar a tarefa com o estado= pendente e o motivo=Nota Fiscal deve ser encaminhado e-mail para caique.barreto@apsen.com.br, com o conteúdo do campo Número da Ordem de Nota Fiscal preenchido.
+
+Assunto: (Número da Tarefa) - Ordem de Nota Fiscal – Governança Financeira
+
+Corpo da notificação: 
+
+(Campo 'Número da Ordem de Nota Fiscal')
+
+Solicito que  a tarefa só pode ser resolvida/encerrada se houver o anexo da Nota fiscal:
+Apresentando o erro: 'Campo anexo obrigatório. Insira o anexo da “Nota Fiscal” para o fechamento da tarefa.
+
+Solicito que ao encerrar a tarefa de 'Gerar Nota Fiscal – Governança Financeira', abrir automaticamente a tarefa “Enviar Acessório – Suporte”
+ - SLA: 3 dias úteis 
