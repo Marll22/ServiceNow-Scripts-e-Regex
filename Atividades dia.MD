@@ -67,3 +67,19 @@ Apresentando o erro: 'Campo anexo obrigatório. Insira o anexo da “Nota Fiscal
 
 Solicito que ao encerrar a tarefa de 'Gerar Nota Fiscal – Governança Financeira', abrir automaticamente a tarefa “Enviar Acessório – Suporte”
  - SLA: 3 dias úteis 
+
+
+---------------------------------------------------------------------------------------------
+
+workflow para rodar na tabela x_apfsa_csc_apsen_requests, colocando nas condições que o Use Default Workflow é False e o nome do item criado
+
+tabela x_apfsa_csc_apsen_request_parameter adicionando o Assignment Group.
+
+Notificação
+
+Anexo obrigatorio na task, client script
+
+SLA na task, associar via wf?
+
+Carregar as infos da ritm para as tasks
+
