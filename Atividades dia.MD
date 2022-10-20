@@ -16,21 +16,7 @@ User testou errado
 
 Solicito que na regra existente hoje para incidente quando ele é colocado no estado "Em Espera" e com o motivo "Aguardando Processo de Melhorias" uma tarefa de incidente é aberta automaticamente para o grupo COE-SP-PROCESSOS-MELHORIAS sejam feitas as seguintes alterações:
 
-- Após a aprovação da primeira tarefa com o nome de ' Aprovação CoE' a tarefa de nome 'Aprovação TI' é criada automaticamente e deve ser direcionada para o grupo de acordo com a empresa do solicitante seguindo o 'de para' abaixo:
- 
-AUREN = AUREN -PROCESSOS-MELHORIAS
-
-CBA = CBA-PROCESSOS-MELHORIAS
-
-VOTORANTIM S/A CURITIBA = COE-CTBA-PROCESSOS-MELHORIAS
-
-VOTORANTIM S/A = COE-SP-PROCESSOS-MELHORIAS
-
-NEXA = NEXA-PROCESSOS-MELHORIAS
-
-VOTORANTIM CIMENTOS = VC-PROCESSOS-MELHORIAS
-
-VCNA = VCNA-PROCESSOS-MELHORIA
+https://votorantimtest.service-now.com/sys_script.do?sys_id=e02a115f1bb0f090ed76db51f54bcb32&sysparm_record_target=sys_script&sysparm_record_row=31&sysparm_record_rows=153&sysparm_record_list=collection%3Dincident%5EORcollectionINincident%2Ctask%5EORDERBYname
 
 
 - Solicito que após o encerramento da tarefa 'Aprovação TI', se caso aprovada;
@@ -51,3 +37,19 @@ Ex: se o incidente foi aberto para o grupo ATOS - Suporte - SAP LES a RITM deve 
 -Encerrar o incidente que gerou a RITM e inserir no campo Anotações de Resolução a informação: "Incidente será tratado como melhoria na RITMXXXXX"
 
 Ficamos no aguardo de seu retorno.
+
+
+-------------------------------------------------------
+
+TODO
+
+WORD
+	gerar o doc atualizado do caso
+
+
+SNOW
+	workflow
+		verificar se o item é a primeira task
+		verificar se o item é aprovado
+		criar tarefa de TI
+		verificar se o item é o item de Ti

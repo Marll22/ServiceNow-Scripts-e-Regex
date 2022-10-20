@@ -1,0 +1,18 @@
+MovieDesk
+	☐ Apontar as horas do dia 19.10
+
+WORD
+	☐ gerar o doc atualizado do caso
+
+SNOW
+	workflow
+		☐ verificar se o item é a primeira task
+		☐ verificar se o item é aprovado
+		☐ se sim, criar tarefa de TI
+		☐ se nao, pular para o proximo
+		☐ verificar se o item é o item de Ti
+		☐ se sim, atribui o grupo de acordo com a empresa e cria a tarefa de Aprovação - MELHORIAS - PRECIFICAÇÃO
+		☐ se nao, pula para o proximo
+		☐ criar um script carregando o valor do campo aprovação da melhoria da req pra task inc
+		☐ verificar se é a tarefa Aprovação - MELHORIAS - PRECIFICAÇÃO
+		.
