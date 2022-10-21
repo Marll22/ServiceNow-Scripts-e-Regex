@@ -1,0 +1,36 @@
+Discord:
+	✔ Pedir ajuda para a Bia @done (20/10/2022 09:12:37)
+	✔ Falar para a mari para pegar proximo item @done (20/10/2022 09:18:29)
+	☐ Pedir acesso para a votorantin qa
+
+MovieDesk:
+	✔ Apontar as horas do dia 19.10 @done (20/10/2022 09:12:18)
+	☐ Apontar as horas do dia 20.10 (03:30)
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (21/10/2022 02:12:53)
+	☐ incluir imagens qa
+
+SNOW:
+	grupo	
+		✔ Solicito a criação do grupo 'ATOS - MELHORIAS - PRECIFICAÇÃO'; @done (20/10/2022 09:11:18)
+
+	workflow
+		✔ primeira task e aguardar aprovação @done (20/10/2022 09:11:21)
+			✔ se sim, criar tarefa de TI e atribui o grupo resp de acordo com a empresa do solicitante @done (20/10/2022 09:11:23)
+			✔ se nao, pular para o proximo @done (20/10/2022 09:11:24)
+		
+		✔ verificar se o item é o item de Ti e aguardar aprovação @done (20/10/2022 09:11:26)
+			✔ se sim, cria a tarefa de Aprovação - MELHORIAS - PRECIFICAÇÃO @done (20/10/2022 09:11:28)
+			✔ criar um script carregando o valor do campo aprovação da melhoria da req pra task inc e garantir que ela tenha o mesmo comportamento das outras incident_task @done (20/10/2022 11:35:35)
+			✔ se nao, pula para o proximo @done (20/10/2022 09:11:30)
+			
+		✔ verificar se é a tarefa Aprovação - MELHORIAS - PRECIFICAÇÃO e aguardar aprovação @done (20/10/2022 09:11:34)
+			✔ se sim, criar RITM, com dados e anexos do inc e ser atribuido ao mesmo grupo do inc e mesmo atendedor do inc. @done (20/10/2022 11:47:46)
+				✔ Gerar worknotes falando que o incidente sera tratado na RITMxxxxxx @done (20/10/2022 11:47:45)
+
+		BR desativada
+			✔ Closed Incident Task -  CoE Approval @done (21/10/2022 01:25:49)
+			✔ Retirar descrição = empresa do codigo @done (21/10/2022 02:18:08)
+
+			
