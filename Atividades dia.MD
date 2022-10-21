@@ -13,7 +13,7 @@
 
 ## Previ
 	12 hrs, tenho só 7 pra fazer
-	lançado 4 horas, tenho 2:59 pra gastar
+	lançado 4 horas, tenho 2:30 pra gastar
 
 
 ----------------------

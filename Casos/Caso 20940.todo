@@ -1,0 +1,29 @@
+Discord:
+	☐ Pedir acesso admin para a istancia do cliente ao hudysson ou alguem que estiver por aqui
+	☐ Pedir ajuda a LT
+	☐ Pedir esclarecimento a em
+
+
+MovieDesk:
+	✔ Apontar as horas do dia 20.10 (04:00) @done (21/10/2022 02:40:56)
+	☐ Apontar as horas do dia 21:10 (02:30)
+
+
+WORD:
+	☐ gerar o doc atualizado do caso
+	☐ incluir imagens qa
+
+
+SNOW:
+	☐ Criar Update Set
+
+	Escopo:
+		☐ Solicito  que após a conclusão da ausência registrada, com aprovação e, a conclusão do RPL, todos os registros de ausência gerem automaticamente, um Time Card associando o registro de ausência (motivo/categoria) ao respectivo RPL, com a distribuição automática do período (entre os dias);
+		☐ Solicito que esses Cards, contanto que a Ausência e RPL tenham sidos concluídos não seja necessária a Aprovação. Desta forma, assim que todos os Cartões de Ponto estejam aprovados (tendo relação ou não a uma tarefa atribuída), o Time Sheet seria também atualizado para Aprovado.
+
+	Direcionamento Técnico:
+		☐ No flow "AUS FL Submeter e Solicitar Aprovação", adicionar regra para inserir novo time card (time_card), já no State "Aprovado", com as informações do registro de ausência (motivo/categoria) ao RPL respectivo, distribuindo o tempo entre os dias do período, apenas após a conclusão da RPL.
+		☐ Na BR "Set values for new time card", adicionar condição para que não execute ao criar o time card nas condições acima.
+	
+	☐ Fechar o Update Set e verificar o que contem nele 
+	☐ Subir o Update Set para o ambiente de QA
