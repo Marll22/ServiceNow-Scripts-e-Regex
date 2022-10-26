@@ -19,6 +19,6 @@
 ----------------------
 
 
-Hoje Previ, 03:00, ate as 13:00
+Hoje Previ, 05:00, ate as 13:00
 
-Falta 04:30
+Falta 02:30

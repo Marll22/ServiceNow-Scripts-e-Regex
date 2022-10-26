@@ -1,0 +1,49 @@
+Discord:
+	☐ Pedir acesso a istancia do cliente
+	☐ Pedir ajuda a LT
+	☐ Pedir esclarecimento a em
+
+
+MovieDesk:
+	☐ Apontar as horas do dia 
+	☐ Apontar as horas do dia 
+
+
+WORD:
+	☐ gerar o doc atualizado do caso
+	☐ incluir imagens qa
+
+
+SNOW:
+	☐ Criar Update Set
+
+	Ajuste:
+	✔ O campo não está na tarefa e sim na NEG @done (25/10/2022 11:05:21)
+	☐ O Campo consta na tarefa como do tipo texto e muitos outros que não foram solicitados para essa tarefa
+	✔ A descrição da Tarefa não é a solicitada 'Separar Acessorio' @done (25/10/2022 11:29:12)
+	✔ - Campos deveriam ser na primeira tarefa e não na neg @done (26/10/2022 11:07:23)
+	☐ o campo abaixo só deveria aparecer na segunda tarefa
+	☐ o campo abaixo só deveria aparecer na segunda tarefa
+	☐ Mesmo apos responder que sim e preencher os campos preencher os campos o fluxo foi encerrado
+	☐ -Descrição não é a solicitada assim como na tarefa 1
+	☐ Campo mencionado não aparecendo na tarefa e outros campos não solicitados aparecendo
+	☐ - Mesmo erro de descrição na tarefa 3 não foi solicitado nenhum campo e aparecem vários
+	☐ Mesmo após registro resolvido os campos continuam editáveis
+
+	
+	☐ Fechar o Update Set e verificar o que contem nele 
+	☐ Subir o Update Set para o ambiente de QA
+
+Business Rules
+	Aoop: Child values to parent 1
+
+Ui Policy
+	Aoop: Hide 'Separar Acessório - Suporte' fields task
+	Aoop: Show 'Separar Acessório - Suporte' fields task
+	Aoop: Backoffice (alterado)
+
+Workflow
+	Aoop: Accessories Flow (alterado)
+
+Dicionario
+	Existe necessidade de solicitar Nota Fiscal? (alterado)

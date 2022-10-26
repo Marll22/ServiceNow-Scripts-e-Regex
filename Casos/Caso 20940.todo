@@ -1,12 +1,14 @@
 Discord:
 	✔ Pedir acesso admin para a istancia do cliente ao hudysson ou alguem que estiver por aqui @done (21/10/2022 09:19:17)
-	☐ Pedir ajuda a LT
-	☐ Pedir esclarecimento a em
+	✔ Pedir ajuda ao Mauro @done (25/10/2022 10:00:52)
 
 
 MovieDesk:
 	✔ Apontar as horas do dia 20.10 (04:00) @done (21/10/2022 02:40:56)
-	☐ Apontar as horas do dia 21:10 (02:30)
+	✔ Apontar as horas do dia 21:10 (05:00) @done (25/10/2022 09:36:23)
+	✔ Apontar as horas do dia 24.10 (03:00) + 04:30 @done (25/10/2022 09:36:22)
+	✔ Apontar as horas do dia 25.10 @done (26/10/2022 09:33:13)
+	Apontar as horas d
 
 
 WORD:
@@ -18,12 +20,25 @@ SNOW:
 	✔ Criar Update Set @done (21/10/2022 09:31:42)
 
 	Escopo:
-		☐ Solicito  que após a conclusão da ausência registrada, com aprovação e, a conclusão do RPL, todos os registros de ausência gerem automaticamente, um Time Card associando o registro de ausência (motivo/categoria) ao respectivo RPL, com a distribuição automática do período (entre os dias);
+		✔ Solicito  que após a conclusão da ausência registrada, com aprovação e, a conclusão do RPL, todos os registros de ausência gerem automaticamente, um Time Card associando o registro de ausência (motivo/categoria) ao respectivo RPL, com a distribuição automática do período (entre os dias); @done (24/10/2022 15:55:48)
 		☐ Solicito que esses Cards, contanto que a Ausência e RPL tenham sidos concluídos não seja necessária a Aprovação. Desta forma, assim que todos os Cartões de Ponto estejam aprovados (tendo relação ou não a uma tarefa atribuída), o Time Sheet seria também atualizado para Aprovado.
 
 	Direcionamento Técnico:
-		☐ No flow "AUS FL Submeter e Solicitar Aprovação", adicionar regra para inserir novo time card (time_card), já no State "Aprovado", com as informações do registro de ausência (motivo/categoria) ao RPL respectivo, distribuindo o tempo entre os dias do período, apenas após a conclusão da RPL.
-		☐ Na BR "Set values for new time card", adicionar condição para que não execute ao criar o time card nas condições acima.
+		✔ No flow "AUS FL Submeter e Solicitar Aprovação", adicionar regra para inserir novo time card (time_card), já no State "Aprovado", com as informações do registro de ausência (motivo/categoria) ao RPL respectivo, distribuindo o tempo entre os dias do período, apenas após a conclusão da RPL. @done (24/10/2022 15:55:43)
+		✔ Na BR "Set values for new time card", adicionar condição para que não execute ao criar o time card nas condições acima. @done (24/10/2022 15:55:50)
 	
 	☐ Fechar o Update Set e verificar o que contem nele 
 	☐ Subir o Update Set para o ambiente de QA
+
+
+	US
+		Aoop: Caso 20940
+		Aoop: Caso 20940 v2 (verificar se precisa, outro escopo)
+
+	Business Rules
+		Validate resource plan (alterado)
+		Validate Time Card (alterado)
+		Set values for new time card (alterado)
+
+	Flow
+		AUS FL Submeter e Solicitar Aprovação (alterado)
