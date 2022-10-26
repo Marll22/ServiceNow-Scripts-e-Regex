@@ -19,7 +19,7 @@ SNOW:
 
 	Ajuste:
 	✔ O campo não está na tarefa e sim na NEG @done (25/10/2022 11:05:21)
-	☐ O Campo consta na tarefa como do tipo texto e muitos outros que não foram solicitados para essa tarefa
+	✔ O Campo consta na tarefa como do tipo texto e muitos outros que não foram solicitados para essa tarefa @done (26/10/2022 12:28:48)
 	✔ A descrição da Tarefa não é a solicitada 'Separar Acessorio' @done (25/10/2022 11:29:12)
 	✔ - Campos deveriam ser na primeira tarefa e não na neg @done (26/10/2022 11:07:23)
 	☐ o campo abaixo só deveria aparecer na segunda tarefa
@@ -47,3 +47,7 @@ Workflow
 
 Dicionario
 	Existe necessidade de solicitar Nota Fiscal? (alterado)
+
+
+Client Script
+	Aoop: volumes number only
