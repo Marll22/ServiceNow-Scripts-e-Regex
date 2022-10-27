@@ -15,24 +15,24 @@ WORD:
 
 
 SNOW:
-	☐ Criar Update Set
+	✔ Criar Update Set @done (27/10/2022 09:31:17)
 
 	Ajuste:
 	✔ O campo não está na tarefa e sim na NEG @done (25/10/2022 11:05:21)
 	✔ O Campo consta na tarefa como do tipo texto e muitos outros que não foram solicitados para essa tarefa @done (26/10/2022 12:28:48)
 	✔ A descrição da Tarefa não é a solicitada 'Separar Acessorio' @done (25/10/2022 11:29:12)
 	✔ - Campos deveriam ser na primeira tarefa e não na neg @done (26/10/2022 11:07:23)
-	☐ o campo abaixo só deveria aparecer na segunda tarefa
-	☐ o campo abaixo só deveria aparecer na segunda tarefa
-	☐ Mesmo apos responder que sim e preencher os campos preencher os campos o fluxo foi encerrado
-	☐ -Descrição não é a solicitada assim como na tarefa 1
-	☐ Campo mencionado não aparecendo na tarefa e outros campos não solicitados aparecendo
-	☐ - Mesmo erro de descrição na tarefa 3 não foi solicitado nenhum campo e aparecem vários
-	☐ Mesmo após registro resolvido os campos continuam editáveis
+	✔ o campo abaixo só deveria aparecer na segunda tarefa @done (27/10/2022 09:31:20)
+	✔ o campo abaixo só deveria aparecer na segunda tarefa @done (27/10/2022 09:31:21)
+	✔ Mesmo apos responder que sim e preencher os campos preencher os campos o fluxo foi encerrado @done (27/10/2022 09:31:22)
+	✔ -Descrição não é a solicitada assim como na tarefa 1 @done (27/10/2022 09:31:22)
+	✔ Campo mencionado não aparecendo na tarefa e outros campos não solicitados aparecendo @done (27/10/2022 09:31:22)
+	✔ - Mesmo erro de descrição na tarefa 3 não foi solicitado nenhum campo e aparecem vários @done (27/10/2022 09:31:23)
+	✔ Mesmo após registro resolvido os campos continuam editáveis @done (27/10/2022 09:31:26)
 
 	
-	☐ Fechar o Update Set e verificar o que contem nele 
-	☐ Subir o Update Set para o ambiente de QA
+	✔ Fechar o Update Set e verificar o que contem nele @done (27/10/2022 09:31:32)
+	✔ Subir o Update Set para o ambiente de QA @done (27/10/2022 09:31:31)
 
 Business Rules
 	Aoop: Child values to parent 1
