@@ -1,0 +1,41 @@
+Discord:
+	✔ Pedir acesso a istancia do cliente @done (28/10/2022 14:56:25)
+	☐ Pedir ajuda a LT
+	☐ Pedir esclarecimento a em
+
+
+MovieDesk:
+	✔ Apontar as horas do dia 28.10 (começou 14:45 - ) @done (31/10/2022 10:22:17)
+	✔ Apontar as horas do dia @done (31/10/2022 10:22:16)
+
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (31/10/2022 10:22:15)
+	✔ incluir imagens qa @done (31/10/2022 10:22:14)
+
+
+SNOW:
+	✔ Criar Update Set @done (28/10/2022 14:56:43)
+
+	Escopo:
+		Solicito que as usuárias
+			Andrea Silva Tavares – andrea.tavares@saudepetrobras.com.br
+			Yhanna Porto Sereno Cabral – yhanna.cabral@saudepetrobras.com.br
+		
+		Tenham acesso ao Módulo de 'CSC - solicitações' (https://saudepetrobrasdev.service-now.com/nav_to.do?uri=%2Fx_apdsa_csc_catint_csc_base_catalog_list.do) e tenham as mesmas permissões para atualizar as solicitações da tabela que a usuária
+				Graziele Cristine Silva Scofano Diniz
+		Atualmente o filtro das requisições puxa o grupo para qual a solicitação é levada, porem mesmo tendo registros com esse filtro, nada é exibido, as usuárias só conseguem visualizar o registro se colocarem ele na lupa de pesquisa
+
+	Direcionamento Técnico:
+		✔ Dar acesso a ambas users @done (31/10/2022 10:22:11)
+	 
+	
+	✔ Fechar o Update Set e verificar o que contem nele @done (31/10/2022 10:22:12)
+	✔ Subir o Update Set para o ambiente de QA @done (31/10/2022 10:22:12)
+
+
+	Aoop: Caso 20664
+
+
+	users	
+		

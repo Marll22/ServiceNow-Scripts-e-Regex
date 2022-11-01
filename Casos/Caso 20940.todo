@@ -24,8 +24,23 @@ SNOW:
 		☐ Solicito que esses Cards, contanto que a Ausência e RPL tenham sidos concluídos não seja necessária a Aprovação. Desta forma, assim que todos os Cartões de Ponto estejam aprovados (tendo relação ou não a uma tarefa atribuída), o Time Sheet seria também atualizado para Aprovado.
 
 	Direcionamento Técnico:
-		✔ No flow "AUS FL Submeter e Solicitar Aprovação", adicionar regra para inserir novo time card (time_card), já no State "Aprovado", com as informações do registro de ausência (motivo/categoria) ao RPL respectivo, distribuindo o tempo entre os dias do período, apenas após a conclusão da RPL. @done (24/10/2022 15:55:43)
+		☐ No flow "AUS FL Submeter e Solicitar Aprovação", adicionar regra para inserir novo time card (time_card), já no State "Aprovado", com as informações do registro de ausência (motivo/categoria) ao RPL respectivo, distribuindo o tempo entre os dias do período, apenas após a conclusão da RPL.
 		✔ Na BR "Set values for new time card", adicionar condição para que não execute ao criar o time card nas condições acima. @done (24/10/2022 15:55:50)
+
+	Ideia:
+		✔ Pegar o valor das horas no campo 'planned_hours, da RPL da tabela 'resource_plan' e salvar var @done (27/10/2022 17:31:31)
+				☐ Criar time card de acordo a data de inicio da ausencia
+		☐ Controlar o incio do preenchimento no time card de acordo com a data de inicio
+		☐ Ir populando os campos coom 8 horas ate acabar o valor da variavel ou acabar os campos no time card
+		☐ Verificar quantas horas foram adicionadas no time_card
+			☐ se acabou o time Card
+				☐ criar um novo time card e reiniciar fluxo
+			☐ se acabou as horas
+				☐ parar
+
+
+
+
 	
 	☐ Fechar o Update Set e verificar o que contem nele 
 	☐ Subir o Update Set para o ambiente de QA
