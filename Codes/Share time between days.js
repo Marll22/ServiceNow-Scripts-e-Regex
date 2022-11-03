@@ -50,7 +50,7 @@
 		bag.tc.setValue('user', user);
 		bag.tc.setValue('category', category);
 		bag.tc.setValue('resource_plan', resource_plan);
-		setHoursTimeCard(bag);
+		bag = setHoursTimeCard(bag);
 		bag.tc.insert();
 		bag.startWeek += 7;
 	}
@@ -128,5 +128,6 @@ function setHoursTimeCard(bag) {
 				bag.inicio += 1;
 			};
 		}
+		return bag;
 
 	}
