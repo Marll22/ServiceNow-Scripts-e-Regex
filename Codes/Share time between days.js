@@ -18,8 +18,7 @@
 		fim: '',
 		hours: '',
 		startWeek: '',
-		tc: '',
-		tcl: ''
+		tc: ''
 	};
 
 // Glide record na tabela de ausencia
@@ -70,7 +69,6 @@
 
 // Function to distribute hours
 function setHoursTimeCard(bag) {
-	if (bag.tcl == 1){
 		if (bag.inicio.getDayOfWeek() == 1){
 			if (bag.hours >= 8){
 				bag.tc.monday == 8;
@@ -82,6 +80,7 @@ function setHoursTimeCard(bag) {
 				bag.hours -= bag.hours;
 				bag.inicio += 1;
 			};
+		};
 		if (bag.inicio.getDayOfWeek() == 2){
 			if (bag.hours >= 8){
 				bag.tc.tuesday == 8;
@@ -93,6 +92,7 @@ function setHoursTimeCard(bag) {
 				bag.hours -= bag.hours;
 				bag.inicio += 1;
 			};
+		};
 		if (bag.inicio.getDayOfWeek() == 3){
 			if (bag.hours >= 8){
 				bag.tc.wednesday == 8;
@@ -104,6 +104,7 @@ function setHoursTimeCard(bag) {
 				bag.hours -= bag.hours;
 				bag.inicio += 1;
 			};
+		};
 		if (bag.inicio.getDayOfWeek() == 4){
 			if (bag.hours >= 8){
 				bag.tc.thursday == 8;
@@ -115,6 +116,7 @@ function setHoursTimeCard(bag) {
 				bag.hours -= bag.hours;
 				bag.inicio += 1;
 			};
+		};
 		if (bag.inicio.getDayOfWeek() == 5){
 			if (bag.hours >= 8){
 				bag.tc.friday == 8;
@@ -127,5 +129,5 @@ function setHoursTimeCard(bag) {
 				bag.inicio += 1;
 			};
 		}
+
 	}
-}
