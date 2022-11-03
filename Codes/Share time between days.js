@@ -52,7 +52,6 @@
 		bag.tc.setValue('resource_plan', resource_plan);
 		setHoursTimeCard(bag);
 		bag.tc.insert();
-		bag.hours -= 40;
 		bag.startWeek += 7;
 	}
 
