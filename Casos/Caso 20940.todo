@@ -57,3 +57,7 @@ SNOW:
 
 	Flow
 		AUS FL Submeter e Solicitar Aprovação (alterado)
+
+	Client Script
+		ShowInfoMsgIfResPlanWasCleared (desativado) (ativado)
+		Clear Resource Plan (desativado)
