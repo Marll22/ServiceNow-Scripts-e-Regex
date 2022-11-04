@@ -1,0 +1,39 @@
+Discord:
+
+
+MovieDesk:
+	Início:
+		✔ 13:00 @done (04/11/2022 18:25:40)
+	Término:
+	✔ Apontar as horas do dia @done (04/11/2022 18:25:41)
+
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (04/11/2022 18:25:42)
+	✔ incluir imagens qa @done (04/11/2022 18:25:42)
+
+
+SNOW:
+	✔ Criar Update Set @done (04/11/2022 17:22:16)
+	✔ Fechar o Update Set e verificar o que contem nele @done (04/11/2022 18:25:43)
+	✔ Subir o Update Set para o ambiente de QA @done (04/11/2022 18:25:44)
+
+	Escopo:
+		✔ Segunda Tarefa 'Aprovação - TI' está abrindo sem o grupo selecionado conforme solicitado no escopo @done (04/11/2022 15:04:47)
+		✔ A quarta Taks não está sendo gerada, o incident é resolvido na 3 task e a ritm criada, esse coportamento só deveria acontecer pós encerramento da 4 task @done (04/11/2022 16:43:12)
+		✔ Informações de Fechamento não foi apresentado a mensagem “Incidente será tratado como melhoria na RITMXXXXX” em Anotações de Resolução. @done (04/11/2022 17:22:14)
+		✔ A RITM criado não foi atribuído para ao Grupo de Atribuição referente ao módulo do incidente original @done (04/11/2022 17:10:15)
+		✔ Rejeição 3ª TASK: quando há rejeição da 3ª TASK, o incidente permanece no Estado (Pendente) com Motivo (Aguardando Processo de Melhorias), ao invés de retornar ao Estado Em Atendimento, Como já ocorre caso rejeite a 1º e a 2 º task @done (04/11/2022 16:43:21)
+		✔ Alterar o nome do grupo 'ATOS - MELHORIAS - PRECIFICAÇÃO' para 'ATOS - MELHORIA - PRECIFICAÇÃO' @done (04/11/2022 17:24:03)
+		✔ Ajustar documentação @done (04/11/2022 18:25:46)
+
+
+ITEMS CRIADOS/ALTERADOS:
+	Business Rules
+		Create Incident Task (alterado)
+		Closed Incident Task - IT Approval (alterado)
+		Closed Incident Task - CoE Approval (alterado)
+		Copy incident fields to RITM (alterado)
+
+	Grupo
+		ATOS - MELHORIA - PRECIFICAÇÃO (alterado)

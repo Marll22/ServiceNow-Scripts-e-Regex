@@ -1,0 +1,35 @@
+Discord:
+
+
+MovieDesk:	
+	Início:
+		✔ 10:30 @done (04/11/2022 11:12:09)
+	Término:
+	✔ Apontar as horas do dia () @done (04/11/2022 13:10:25)
+
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (04/11/2022 13:10:24)
+
+
+SNOW:
+	☐ Criar Update Set
+
+	Escopo:
+		
+		Direcionamento Técnico:
+		✔ Os campos somem após responder os mesmos na primeira tarefa, eles deveriam ficar read only mas permanecerem acessíveis na tarefa @done (04/11/2022 11:50:51)
+		✔ Os campos voltam a aparecer na segunda tarefa somente quando os estado= pendente e o motivo= nota fiscal, mas o solicitado é para que todos os campos permaneçam visíveis  na primeira e na segunda tarefa e o ultimo campo de ' Ordem de nota fiscal' somente apareça após mudar o estado e o motivo. @done (04/11/2022 11:50:58)
+		✔ Notificação em inglês/ português misturada @done (04/11/2022 13:10:22)
+	
+	✔ Fechar o Update Set e verificar o que contem nele @done (04/11/2022 13:10:22)
+	✔ Subir o Update Set para o ambiente de QA @done (04/11/2022 13:10:23)
+
+	UI Policies
+		Aoop: Read only fields in 'Gerar Nota Fiscal – Governança Financeira'
+		Aoop: Show 'Separar Acessório - Suporte' fields task always (alterado)
+		Aoop: 'Ordem Nota fiscal is mandatory' when 'Pendente – Motivo: Nota Fiscal' (alterado)
+		Aoop: Show 'Separar Acessório - Suporte' fields task (alterado)
+
+	Notificação
+		Aoop: Acessório Pendente nota fiscal (alterado)
