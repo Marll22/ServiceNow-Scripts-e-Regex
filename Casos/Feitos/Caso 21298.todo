@@ -1,0 +1,51 @@
+Discord:
+	✔ Pedir acesso a istancia do cliente @done (03/11/2022 16:39:02)
+	✔ Pedir ajuda a LT @done (03/11/2022 16:39:03)
+	✔ Pedir esclarecimento a em @done (03/11/2022 16:39:03)
+
+
+MovieDesk:
+	✔ Apontar as horas do dia 03.11 (02:30) @done (03/11/2022 16:39:04)
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (03/11/2022 16:39:27)
+
+
+SNOW:
+	✔ Criar Update Set @done (03/11/2022 14:58:10)
+
+	Escopo:
+		
+		✔ Solicito que no item de 'solicitar Acesso ao Webmine' abaixo do campo de 'Solicitado por' seja criado o campo obrigatórios  'Tipo de usuário' com as opções @done (03/11/2022 14:58:08 	
+			✔ Funcionário; @done (03/11/2022 14:58:52)
+			✔ Terceiro; @done (03/11/2022 14:58:51)
+		
+		✔ Se selecionado 'Terceiro' no campo mencionado acima os campos de 'Solicitado para (Nome Completo): e 'Matricula' do tipo texto, já existentes no formulário, devem ser exibidos e serem obrigatórios; @done (03/11/2022 16:24:27)
+		
+		✔ Se selecionado 'Funcionário' no campo mencionado acima, solicito que seja criado os seguintes campos obrigatórios: @done (03/11/2022 16:24:27)
+			✔ Solicitado para: campo referência da tabela do sys_user. @done (03/11/2022 16:24:25)
+			✔ Matrícula: Insere automaticamente o campo “Description” da tabela do sys_user, conforme usuário escolhido. @done (03/11/2022 16:24:26)
+		
+
+	Direcionamento Técnico:
+		✔ Criação do campo "Tipo de usuário" de acordo com a solicitação @done (03/11/2022 15:07:17)
+		✔ Criação de ui policy para exibir os campos solicitados ao selecionar "Terceiro" @done (03/11/2022 16:24:23)
+		✔ Criação dos campos "Solicitado para" e "Matrícula" e ui policy para exibição dos mesmos @done (03/11/2022 16:24:23)
+		✔ Criação de client script no change do Solicitado para (de funcionário) para buscar a matrícula e preencher no campo @done (03/11/2022 16:24:22)
+	
+	
+	✔ Fechar o Update Set e verificar o que contem nele @done (03/11/2022 16:39:31)
+
+	Variables
+		'Solicitado para (Nome Completo)' (desativado)
+		'Matrícula' (alterado)
+		'Solicitado para (Nome Completo)'
+		'Solicitado para'
+		'Matrícula'
+
+	Ui policy
+		Aoop: Show 'third party' fields
+		Aoop: Show 'employee' fields
+
+	Client Script
+		Aoop: Set matricula

@@ -1,0 +1,54 @@
+Discord:
+	✔ Pedir acesso a istancia do cliente @done (03/11/2022 17:06:09)
+
+
+MovieDesk:
+	✔ Apontar as horas do dia 03.11 (02:30) @done (04/11/2022 09:19:03)
+	✔ Apontar as horas do dia 04.11 (01:30) @done (04/11/2022 10:50:06)
+
+
+WORD:
+	✔ gerar o doc atualizado do caso @done (04/11/2022 10:50:05)
+	✔ incluir imagens qa @done (04/11/2022 10:50:06)
+
+
+SNOW:
+	✔ Criar Update Set @done (04/11/2022 09:08:07)
+
+	Escopo:
+	Solicito que no item de 'Mudança de aprovador' (https://eqxtstbr.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D40eb570e87c819105cbd8448cebb35d3%26sysparm_link_parent%3Db3367fea6fb85900fd2fa981be3ee447%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default%26sysparm_view%3Dtext_search ) seja criado o campo obrigatório 'Tipo' com as opções de "FINANCEIRO" ,"SUPRIMENTOS" e "AMBOS"; 
+
+	Solicito que antes da aprovação que já existe no fluxo acima ('AOOP: Generic Brazil Approval v2' ) seja solicitada a aprovação conforme abaixo   
+		Em caso de FINANCEIRO, adicionar primeira aprovação para "TATIANA PAIVA";
+		Em caso de SUPRIMENTOS, adicionar primeira aprovação para "TANIA SOUZA"
+		Em caso de AMBOS, adicionar primeira aprovação para ambas usuárias
+
+	Solicito que se 'rejeitado' em qualquer cenário acima a solicitação seja encerrada;
+	Solicito que se 'aprovado' gere a aprovação já existente (Gestor do usuário);
+	Solicito que se 'rejeitado' a aprovação acima a solicitação seja encerrada;
+	Solicito que se 'aprovado' seja gerada a tarefa  "Mudança de Aprovador  - SN"/"( Approval Change - SN)"  para o grupo "BR-BHZ-Governança", juntamente com a tarefa já gerada no fluxo (Mudança de aprovador)
+
+
+	Direcionamento Técnico:
+		✔ Validar se o fluxo está sendo usado em mais de um item. Se estiver, incluir validações para que novas aprovações e tarefas sejam incluídas apenas para o item em questão @done (03/11/2022 17:11:27) - Rodando apenas no item
+		✔ Criar o campo obrigatório 'Tipo' com as opções de "FINANCEIRO" ,"SUPRIMENTOS" e "AMBOS"; @done (04/11/2022 09:00:58)
+		✔ Criar o grupo Financeiro e Suprimento e incluir as usuários nos grupos de acordo com o solicitado. Forçar grupo e relacionamento usuário x grupo no update set. @done (04/11/2022 09:08:01)
+		✔ Incluir aprovações no início do fluxo @done (04/11/2022 09:18:19)
+		✔ Criação de tarefa no fluxo em conjunto com a tarefa existente (Mudança de aprovador). As duas tarefas devem ser criadas juntas e apenas ao encerrar as duas o fluxo deve fechar a ritm @done (04/11/2022 09:12:24)
+	
+	✔ Fechar o Update Set e verificar o que contem nele @done (04/11/2022 09:18:50)
+
+
+	Grupo
+		Financeiro
+		SUPRIMENTOS
+
+	Usuário
+		Tania Maria de Souza (alterado)
+		Tatiana Xavier Reis Souza de Paiva (alterado)
+
+	Variavel
+		Type
+
+	Workflow
+		Aoop: Generic Brazil Approval v2 (alterado)
