@@ -6,6 +6,6 @@
 
 # Casos trabalhados:
 
-Caso da previ
-1 caso Lundin
-1 caso 
+1 caso Igua
+1 caso intermedica
+

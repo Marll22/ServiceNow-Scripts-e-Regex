@@ -1,0 +1,49 @@
+Discord:
+	☐ Pedir ajuda a LT
+	☐ Pedir esclarecimento a em
+
+
+MovieDesk:
+	Início:
+		☐ 
+	Término:
+	☐ Apontar as horas do dia 07/11 (05:45) 
+	☐ Apontar as horas do dia 
+
+
+WORD:
+	☐ gerar o doc atualizado do caso
+	☐ incluir imagens qa
+
+
+SNOW:
+	✔ Criar Update Set @done (07/11/2022 14:58:01)
+	☐ Fechar o Update Set e verificar o que contem nele 
+	☐ Subir o Update Set para o ambiente de QA 
+
+	Escopo:
+		Solicito que somente os usuários do grupo 'SAP - Key-user'  possam acessar/ encontrar no portal o item de SAP (https://iguaqa.service-now.com/sp?id=sc_cat_item&sys_id=89125ad2870e15103a79a8e80cbb3548);
+
+		Solicito que somente os usuários do grupo 'SAP - Key-user', na abertura de incidentes, (https://iguaqa.service-now.com/sp?id=sc_cat_item&sys_id=e0d59fe1872995103a79a8e80cbb3583&sysparm_category=21769b25872995103a79a8e80cbb356e ) possam ter acesso a combinação das opções abaixo.
+			'Informar Categoria' = 'Sistemas corporativos'
+			'Subcategoria' = SAP .	
+
+	Direcionamento Técnico:
+		✔ Criar User Criteria com o grupo "SAP – Key-user" para que apenas os usuários dele tenham acesso ao item de SAP no portal @done (07/11/2022 15:50:18)
+		✔ Criar client script para remover quando for selecionado "Sistemas Corporativos" e remover a opção "SAP" da subcategoria caso o usuário logado não seja do grupo solicitado @done (08/11/2022 09:21:54)
+
+		
+ITENS ALTERADOS:
+
+User Criteria	
+	Aoop: Sap Key Users
+
+Catalog item	
+	SAP (alterado)
+
+Client Script
+	Aoop: Hide SAP Options
+
+Script Include
+	sapCheck
+
