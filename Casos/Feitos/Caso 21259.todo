@@ -1,25 +1,25 @@
 Discord:
-	☐ Pedir ajuda a LT
-	☐ Pedir esclarecimento a em
+	✔ Pedir ajuda a LT @done (08/11/2022 10:43:12)
+	✔ Pedir esclarecimento a em @done (08/11/2022 10:43:12)
 
 
 MovieDesk:
 	Início:
 		☐ 
 	Término:
-	☐ Apontar as horas do dia 07/11 (05:45) 
-	☐ Apontar as horas do dia 
+	✔ Apontar as horas do dia 07/11 (05:45) @done (08/11/2022 10:43:14)
+	✔ Apontar as horas do dia @done (08/11/2022 10:43:15)
 
 
 WORD:
-	☐ gerar o doc atualizado do caso
-	☐ incluir imagens qa
+	✔ gerar o doc atualizado do caso @done (08/11/2022 10:43:07)
+	✔ incluir imagens qa @done (08/11/2022 10:43:08)
 
 
 SNOW:
 	✔ Criar Update Set @done (07/11/2022 14:58:01)
-	☐ Fechar o Update Set e verificar o que contem nele 
-	☐ Subir o Update Set para o ambiente de QA 
+	✔ Fechar o Update Set e verificar o que contem nele @done (08/11/2022 10:43:09)
+	✔ Subir o Update Set para o ambiente de QA @done (08/11/2022 10:43:10)
 
 	Escopo:
 		Solicito que somente os usuários do grupo 'SAP - Key-user'  possam acessar/ encontrar no portal o item de SAP (https://iguaqa.service-now.com/sp?id=sc_cat_item&sys_id=89125ad2870e15103a79a8e80cbb3548);

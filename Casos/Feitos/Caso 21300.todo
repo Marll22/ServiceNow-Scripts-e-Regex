@@ -1,0 +1,56 @@
+Discord:
+	☐ Pedir ajuda a LT
+	☐ Pedir esclarecimento a em
+
+
+MovieDesk:
+	Término:
+	✔ Apontar as horas do dia 09.11 (06:00) @done (10/11/2022 11:26:36)
+	☐ Apontar as horas do dia ()
+
+
+WORD:
+	☐ gerar o doc atualizado do caso
+	☐ incluir imagens qa
+
+
+SNOW:
+	✔ Criar Update Set @done (09/11/2022 14:54:21)
+	☐ Fechar o Update Set e verificar o que contem nele 
+	☐ Subir o Update Set para o ambiente de QA
+
+	US:
+		Aoop: Caso 21300
+
+	Escopo:
+		Solicito que no item de 'Nova Conta Para terceiro'  seja criado o campo de “Necessário acesso ao Webmine via Citrix” (Campo sim ou não) obrigatório, acima do campo de 'justificativa';
+
+		Solicito que no item de 'Nova Conta Para terceiro'  seja criado o campo de "Necessário acesso ao Autorizações SIG” (Campo Sim/Não) obrigatório, abaixo do campo de “Necessário acesso ao Webmine via Citrix”;
+
+		Se selecionado 'Sim' no campo "Necessário acesso ao Autorizações SIG”, gerar Tarefa com a descrição resumida de “Acesso ao módulo Autorizações SIG” após o fechamento completo da tarefa de “Create New User Consultant” .
+
+		Se selecionado Não, manter o fluxo da mesma forma que está hoje;
+
+		Solicito que a aprovação hoje já solicitada para o gerente, seja encaminhada para o usuário colocado no campo de 'Responsável Imediato (Gerente / Coordenador / Supervisor)';
+
+
+	Direcionamento Técnico:
+		✔ Todos os campos criados devem ter tradução nos idiomas português, inglês e espanhol @done (09/11/2022 15:42:44)
+		✔ Criação dos campos solicitados, nas posições descritas no escopo @done (09/11/2022 15:42:41)
+			✔ item de 'Nova Conta Para terceiro' field “Necessário acesso ao Webmine via Citrix” (Campo sim ou não) obrigatório, acima do campo de 'justificativa'; @done (09/11/2022 15:37:58)
+				✔ EN: Webmine access via Citrix required @done (09/11/2022 15:17:38)
+				✔ PB: Necessário acesso ao Webmine via Citrix @done (09/11/2022 15:37:09)
+				✔ ES: Se requiere acceso a Webmine a través de Citrix @done (09/11/2022 15:37:55)
+
+			✔ item de 'Nova Conta Para terceiro' field "Necessário acesso ao Autorizações SIG” (Campo Sim/Não) obrigatório, abaixo do campo de “Necessário acesso ao Webmine via Citrix”; @done (09/11/2022 15:42:39)
+				✔ EN: Access to GIS Authorizations required @done (09/11/2022 15:41:45)
+				✔ PB: Necessário acesso ao Autorizações SIG @done (09/11/2022 15:41:58)
+				✔ ES: Acceso a GIS Autorizaciones requeridas @done (09/11/2022 15:42:37)
+
+
+		✔ No workflow New User Consultant v. 2 alterar a aprovação existente hoje que vai para o gerente para o usuário do campo Responsável Imediato (Gerente / Coordenador / Supervisor) @done (10/11/2022 10:25:12)
+
+		☐ No workflow fazer a validação do campo "Necessário acesso ao Autorizações SIG" após a tarefa solicitada e caso seja sim, criar nova tarefa. Atenção, a tarefa "Create New User Consultant" existe duas vezes no fluxo, devendo ter a validação após as duas
+			☐ Tarefa com a descrição resumida de “Acesso ao módulo Autorizações SIG” após o fechamento completo da tarefa de “Create New User Consultant” grupo "Support SDL".
+	
+ITENS ALTERADOS:
